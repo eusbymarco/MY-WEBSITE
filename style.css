@@ -1,0 +1,63 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color: #f4f4f9;
+  color: #333;
+  line-height: 1.6;
+}
+
+header {
+  background: #1a1a2e;
+  color: #fff;
+  padding: 1rem;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0.5rem 0;
+}
+
+.tagline {
+  font-size: 1.1rem;
+  font-style: italic;
+  color: #ddd;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 10px;
+}
+
+nav ul li a {
+  color: #ffcc00;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+main {
+  padding: 20px;
+}
+
+.profile-pic {
+  width: 180px;
+  border-radius: 50%;
+  margin-top: 15px;
+  display: block;
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+  background: #1a1a2e;
+  color: #fff;
+  margin-top: 20px;
+}
