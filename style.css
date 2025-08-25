@@ -127,4 +127,112 @@ footer {
   content: "📄";
   font-size: 20px;
 }
+/* About Me Section */
+.about-section {
+  padding: 80px 20px;
+  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364); /* subtle tech gradient */
+  color: #e0e0e0;
+  text-align: center;
+  border-radius: 12px;
+  margin: 50px auto;
+  max-width: 1000px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+}
+
+.about-container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.about-section h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #00d4ff; /* tech accent color */
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.about-section p {
+  font-size: 1.15rem;
+  line-height: 1.8;
+  color: #dcdcdc;
+  margin-bottom: 20px;
+}
+
+.about-section em {
+  color: #00ffa6; /* highlight mission in neon style */
+  font-style: normal;
+  font-weight: 600;
+}
+/* Contact Section */
+.contact-section {
+  padding: 80px 20px;
+  background: linear-gradient(135deg, #141e30, #243b55);
+  color: #f0f0f0;
+  text-align: center;
+  border-radius: 12px;
+  margin: 50px auto;
+  max-width: 1000px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+}
+
+.contact-container {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.contact-section h2 {
+  font-size: 2.5rem;
+  margin-bottom: 15px;
+  color: #00d4ff;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.contact-section p {
+  font-size: 1.1rem;
+  margin-bottom: 30px;
+  color: #d0d0d0;
+}
+
+/* Form styling */
+.form-group {
+  margin-bottom: 20px;
+}
+
+.contact-section input,
+.contact-section textarea {
+  width: 100%;
+  padding: 15px;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  background: #1e2a38;
+  color: #fff;
+  font-size: 1rem;
+}
+
+.contact-section input::placeholder,
+.contact-section textarea::placeholder {
+  color: #aaa;
+}
+
+.contact-btn {
+  background: #00d4ff;
+  color: #0f2027;
+  border: none;
+  padding: 15px 30px;
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.contact-btn:hover {
+  background: #00ffa6;
+  color: #0f2027;
+  transform: translateY(-2px);
+}
 
